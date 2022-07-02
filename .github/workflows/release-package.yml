@@ -1,8 +1,11 @@
 name: Node.js Package  
 
-on:
-  release:
-    type: [created]
+#on:
+#  release:
+#    type: [created]
+
+# for test
+on: push
 
 jobs:
   build:
